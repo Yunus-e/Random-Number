@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #4a97f0;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    background-color: white;
+    width: 300px;
+    height: auto;
+    padding: 25px;
+    box-shadow: 0px -6px 97px -7px rgba(0, 0, 0, 0.42);
+    border-radius: 12px;
+}
+
+.container .header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container .header span {
+    display: flex;
+    justify-content: center;
+}
+
+.container .text {
+    display: flex;
+    height: 70px;
+    gap: 15px;
+}
+
+.container .text input {
+    width: 50%;
+    height: 50px;
+    border: 1px solid #afaeb1;
+    outline: none;
+    border-radius: 7px;
+    padding: 20px;
+    font-size: 19px;
+}
+
+.container .text button {
+    width: 50%;
+    height: 50px;
+    background-color: #4a97f0;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 19px;
+    user-select: none;
+}
+
+.container .changes {
+    text-align: center;
+}
+
+.container .header .message {
+    display: none;
+}
+
+.container .header .message.active {
+    display: flex;
+}
